@@ -7,6 +7,24 @@
     margin:30px ;
     padding-top: 30px;
 }
+
+@media(max-width: 768px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-side{
+        align-self: self-start;
+    }
+
+    .right-side{
+        align-self: flex-end;
+    }
+
+    .left-side h1{
+        font-size: 45px;
+    }
+}
 .main{
     display: flex;
     align-items: flex-start;

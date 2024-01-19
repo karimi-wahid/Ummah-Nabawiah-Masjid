@@ -117,12 +117,24 @@
 }
 
 @media (max-width: 768px){
+    .container4{
+        margin-top: 30px;
+    }
+
+    .body1 h1{
+        font-size: 45px;
+    }
+    
     .boxes{
         flex-direction: column;
         margin: 30px;
     }
 
+    .box-1{
+        width: 450.025px;
+    }
+
     .box-2{
-        width:650.025px;
+        width:450.025px;
     }
 }

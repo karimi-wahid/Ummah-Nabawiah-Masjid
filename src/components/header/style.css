@@ -11,8 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
+
 
 .right_side{
     padding: 60px 30px;
@@ -169,6 +169,7 @@
 @media(max-width: 768px){
     .container{
         flex-direction: column;
+        
     }
 
     .right_side{
@@ -178,4 +179,28 @@
         padding: 0px 30px;
     }
 
+    .right_side h1{
+        width: 500px;
+    }
+
 }
+
+@media(max-width: 1419px){
+    .left_side{
+        margin: 0 auto;
+        
+    }
+
+    .right_side{
+        padding: 60px 10px;
+    }
+
+    .right_side h1{
+        font-size: 60px;
+    }
+
+    .left_side{
+        margin-right: 10px;
+    }
+}
+

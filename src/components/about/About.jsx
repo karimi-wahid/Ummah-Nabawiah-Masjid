@@ -8,8 +8,8 @@ const About = () => {
         <div className='container1' id='about'>
             <div className='main'>
                 <div className='left-side'>
-                    <p>/About</p>
-                    <h1><strong>Ummah Nabawiah <br/> Masjid (UNM)</strong></h1>
+                        <p>/About</p>
+                        <h1><strong>Ummah Nabawiah <br/> Masjid (UNM)</strong></h1>
                 </div>
                 <div className='right-side'>
                     <p>UNM is a registered non-profit charitable organization established in 1994. The current masjid building (approximately 28000 SF) was purchased in 1996 and converted to its current state in the last 12 years. The centre is located centrally and is easily accessible by all modes of transportation.</p>
