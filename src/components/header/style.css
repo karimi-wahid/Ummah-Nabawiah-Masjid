@@ -1,0 +1,181 @@
+.container{
+    width:98%;
+
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0.07) 100%), linear-gradient(180deg, #3E6C55 3.67%, rgba(58, 110, 84, 0.00) 100%), url(../../images/background.png), lightgray 0px -418.448px / 99.9% 258.357% no-repeat;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    border-radius: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right_side{
+    padding: 60px 30px;
+}
+
+.right_side h1{
+    width: 562.443px;
+    color: #fff;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.9px; /* 100.9% */
+    letter-spacing: -7px;
+    padding:40px 20px;
+}
+
+.right_side p{
+    width: 492.108px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35.6px; /* 178% */
+    letter-spacing: -0.2px;
+    padding:40px 20px;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.pray-time{
+    width: 404.311px;
+    height: 312.857px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FCFDF8;
+}
+
+.pray-time ul{
+    list-style: none;
+}
+
+.pray-time ul li{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+
+
+}
+
+.left_side .time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-pray{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.juma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 325.174px;
+    height: 148.69px;
+    flex-shrink: 0;
+    text-align: center;
+
+    border-radius: 30px;
+    background: #D9E9B8;
+}
+
+.juma .frame{
+    width: 64.613px;
+    height: 64.613px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.juma h6{
+    color: #0F0E0D;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.474px; /* 162.368% */
+    letter-spacing: -0.8px;
+}
+
+.juma-time{
+    width: 325.174px;
+    height: 164.167px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #D9E9B8;
+    margin-top: 3px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.juma-time .juma1{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.36px;
+}
+
+.juma-time span{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.64px;
+    padding: 0px 20px;
+}
+
+.juma-time .lecture{
+    color: #727A62;
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 184.615% */
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+
+@media(max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+
+    .right_side{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px 30px;
+    }
+
+}

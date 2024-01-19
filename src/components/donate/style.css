@@ -1,0 +1,128 @@
+.container4{
+    width: 98%;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #D9E9B8;
+
+    display: flex;
+}
+
+.body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.body1 p{
+    color: #171716;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.6px; /* 178% */
+    letter-spacing: -0.2px;
+}
+
+.body1 h1{
+    color: #000;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 77px; /* 137.5% */
+    letter-spacing: -1.12px;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-1{
+    width: 650.025px;
+    height: 198.86px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #fff;
+    text-align: left;
+    padding: 30px;
+
+}
+
+.box-1 h1{
+    color: #000;
+    text-align: start;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53px; /* 143.243% */
+    letter-spacing: -0.74px;
+}
+
+.box-1 p{
+    width: 500.899px;
+    color: #171716;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.6px; /* 178% */
+    letter-spacing: -0.2px;
+}
+
+.box-2{
+    width: 514.365px;
+    height: 198.86px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2 h3{
+    width: 378.504px;
+    color: #000;
+    text-align: center;
+    font-size: 29.588px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45.614px; /* 154.167% */
+    letter-spacing: -0.592px;
+}
+
+.body1 .para{
+    margin-top: 20px;
+}
+
+.body1 .para-text{
+    width: 659.222px;
+    color: #171716;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    letter-spacing: -0.24px;
+    border-top: #171716 .4px dotted;
+    border-bottom: .8px #171716 dotted;
+    padding: 10px 0px;
+}
+
+@media (max-width: 768px){
+    .boxes{
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .box-2{
+        width:650.025px;
+    }
+}

@@ -1,0 +1,81 @@
+.container5{
+    width: 98%;
+    margin: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image, .contact, .social{
+    max-width: 464.08px;
+    min-width: 440px;
+    height: 182.342px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F0F1EB;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 221.397px;
+    height: 101.742px;
+    flex-shrink: 0;
+}
+
+.contact{
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.contact div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact i{
+    padding-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.contact span{
+    color: #0F0E0D;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.474px; /* 180.409% */
+    letter-spacing: -0.72px;
+    padding-right: 10px;
+}
+
+.social{
+    flex-direction: column;
+}
+
+.social p{
+    color: #0F0E0D;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32.474px; /* 135.307% */
+letter-spacing: -0.96px;
+}
+
+.social div{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social div a{
+    padding: 20px;
+}
