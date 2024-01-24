@@ -4,7 +4,7 @@ import './style.css'
 const Donate = () => {
   return (
     <>
-        <div className='container4'>
+        <div className='container4' id="donate">
             <div className='body1'>
                 <div>
                     <p>/DONATE</p>
